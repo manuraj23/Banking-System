@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://manuraj0642:l4jMctLwoCR3Dw6U@cluster0.qvcxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: BankDB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: manuraj0642@gmail.com
+    password: ynvc imjh uqme tcvd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+
+server:
+  port: 8085
+  servlet:
+    context-path: /bank
